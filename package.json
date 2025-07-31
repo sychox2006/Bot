@@ -1,0 +1,16 @@
+{
+  "name": "whatsapp-gpt-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp GPT bot using Baileys and Groq API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.6.0",
+    "dotenv": "^16.3.1",
+    "node-fetch": "^3.3.2",
+    "pino": "^8.0.0"
+  },
+  "type": "module"
+}
